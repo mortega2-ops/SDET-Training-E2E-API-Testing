@@ -13,7 +13,7 @@ Ensure the server is running on localhost:3000
 ##Testing Instructions
 Assuming the todo website is up and running on localhost:3000
 Configure pom.xml file dependencies for use with intellij junit, Selenium
-To run tests, open project in intellij, navigate to src/test/java/SeleniumTests.java and click run SeleniumTests.java next to the class declaration.
+To run tests, open project in intellij, navigate to src/test/java/test/SeleniumTests.java and click run SeleniumTests.java next to the class declaration.
 
 Linting Instructions
 As long as Google's Intellij linter is configured, ctrl+alt+l can be used to automatically lint each file.
