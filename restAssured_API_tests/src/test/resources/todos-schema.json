@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Todo set",
+  "type": "array",
+  "items": {
+    "title": "todo",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "completed": {
+        "type": "boolean"
+      },
+      "id": {
+        "description": "The unique identifier for a product",
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id"
+  ]
+}
+
